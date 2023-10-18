@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    background-color: #ffeeb0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 38px;
+    color: #537fbb;
+    text-align: center;
+}
+
+.shopping {
+    width: 150px;
+    border: 2px solid #537fbb;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px #54b9d3;
+    margin: 0 auto;
+}
+
+#user-input,
+#add-btn{
+    width: 150px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffeeb0;
+    background-color: #537fbb;
+    box-shadow: 1px 1px 4px #54b9d3;
+    margin: 10px auto;
+}
+
+#user-input::placeholder {
+    color: #ffeeb0;
+}
+
+#user-input:focus {
+    outline: none;
+    border: 2px solid #54b9d3;
+}
+
+
+#add-btn {
+    background-color: #96cfb9;
+    font-weight: 600;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 3px #537fbb;
+}
+
+#add-btn:hover {
+    cursor: pointer;
+    background-color: #537fbb;
+    color: #ffeeb0;
+}
+
+#shopping-list {
+    color: #ffeeb0;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+ul li {
+    font-size: 18px;
+    background-color: #537fbb;
+    padding: 15px;
+    border-radius: 10px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 1px 1px 3px #96cfb9;
+}
+
+ul li:hover {
+    background-color: #54b9d3;
+    cursor: pointer;
+}
