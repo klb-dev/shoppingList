@@ -2,19 +2,6 @@
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import {getDatabase, ref, push, onValue, remove} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
-
-
-// Your web app's Firebase configuration
-// const firebaseConfig = {
-//     apiKey: "AIzaSyAdrL3Gnhn4kZNe1AI8Bqayv0mpAuoUM5o",
-//     authDomain: "shoppinglist-64c58.firebaseapp.com",
-//     databaseURL: "https://shoppinglist-64c58-default-rtdb.firebaseio.com",
-//     projectId: "shoppinglist-64c58",
-//     storageBucket: "shoppinglist-64c58.appspot.com",
-//     messagingSenderId: "1090390591686",
-//     appId: "1:1090390591686:web:dac27590015f4200cd6fc7"
-//   };
-
 const appSettings = {
     databaseURL: "https://shoppinglist-64c58-default-rtdb.firebaseio.com"
 }
